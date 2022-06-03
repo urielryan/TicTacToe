@@ -43,6 +43,7 @@
             // U001
             // 
             this.U001.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.U001.Image = global::TicTacToe_Game.Properties.Resources._9_IMG20220602_223012;
             this.U001.Location = new System.Drawing.Point(64, 60);
             this.U001.Name = "U001";
             this.U001.Size = new System.Drawing.Size(186, 186);
@@ -53,6 +54,7 @@
             // U002
             // 
             this.U002.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.U002.Image = global::TicTacToe_Game.Properties.Resources._8_IMG20220602_223012;
             this.U002.Location = new System.Drawing.Point(249, 60);
             this.U002.Name = "U002";
             this.U002.Size = new System.Drawing.Size(186, 186);
@@ -63,6 +65,7 @@
             // U003
             // 
             this.U003.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.U003.Image = global::TicTacToe_Game.Properties.Resources._7_IMG20220602_223012;
             this.U003.Location = new System.Drawing.Point(434, 60);
             this.U003.Name = "U003";
             this.U003.Size = new System.Drawing.Size(186, 186);
@@ -73,6 +76,7 @@
             // R001
             // 
             this.R001.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.R001.Image = global::TicTacToe_Game.Properties.Resources._6_IMG20220602_223012;
             this.R001.Location = new System.Drawing.Point(64, 245);
             this.R001.Name = "R001";
             this.R001.Size = new System.Drawing.Size(186, 186);
@@ -83,6 +87,7 @@
             // R002
             // 
             this.R002.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.R002.Image = global::TicTacToe_Game.Properties.Resources._5_IMG20220602_223012;
             this.R002.Location = new System.Drawing.Point(249, 245);
             this.R002.Name = "R002";
             this.R002.Size = new System.Drawing.Size(186, 186);
@@ -93,6 +98,7 @@
             // R003
             // 
             this.R003.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.R003.Image = global::TicTacToe_Game.Properties.Resources._4_IMG20220602_223012;
             this.R003.Location = new System.Drawing.Point(434, 245);
             this.R003.Name = "R003";
             this.R003.Size = new System.Drawing.Size(186, 186);
@@ -103,6 +109,7 @@
             // I001
             // 
             this.I001.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.I001.Image = global::TicTacToe_Game.Properties.Resources._3_IMG20220602_223012;
             this.I001.Location = new System.Drawing.Point(64, 430);
             this.I001.Name = "I001";
             this.I001.Size = new System.Drawing.Size(186, 186);
@@ -113,6 +120,7 @@
             // I002
             // 
             this.I002.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.I002.Image = global::TicTacToe_Game.Properties.Resources._2_IMG20220602_223012;
             this.I002.Location = new System.Drawing.Point(249, 430);
             this.I002.Name = "I002";
             this.I002.Size = new System.Drawing.Size(186, 186);
@@ -123,6 +131,7 @@
             // I003
             // 
             this.I003.Font = new System.Drawing.Font("Arial Rounded MT Bold", 68.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.I003.Image = global::TicTacToe_Game.Properties.Resources._1_IMG20220602_223012;
             this.I003.Location = new System.Drawing.Point(434, 430);
             this.I003.Name = "I003";
             this.I003.Size = new System.Drawing.Size(186, 186);
@@ -150,6 +159,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "TicTacGo Go Go!";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

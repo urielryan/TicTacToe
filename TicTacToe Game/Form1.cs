@@ -60,7 +60,7 @@ namespace TicTacToe_Game
             //diagonal
             else if ((U001.Text == R002.Text) && (R002.Text == I003.Text) && (!U001.Enabled))
                 there_is_a_winner = true;
-            else if ((U003.Text == R002.Text) && (R002.Text == I001.Text) && (I001.Enabled))
+            else if ((U003.Text == R002.Text) && (R002.Text == I001.Text) && (!I001.Enabled))
                 there_is_a_winner = true;
 
             if (there_is_a_winner)

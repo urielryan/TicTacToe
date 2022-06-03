@@ -48,6 +48,7 @@
             this.U001.Size = new System.Drawing.Size(186, 186);
             this.U001.TabIndex = 0;
             this.U001.UseVisualStyleBackColor = true;
+            this.U001.Click += new System.EventHandler(this.click_button);
             // 
             // U002
             // 
@@ -57,6 +58,7 @@
             this.U002.Size = new System.Drawing.Size(186, 186);
             this.U002.TabIndex = 1;
             this.U002.UseVisualStyleBackColor = true;
+            this.U002.Click += new System.EventHandler(this.click_button);
             // 
             // U003
             // 
@@ -66,6 +68,7 @@
             this.U003.Size = new System.Drawing.Size(186, 186);
             this.U003.TabIndex = 2;
             this.U003.UseVisualStyleBackColor = true;
+            this.U003.Click += new System.EventHandler(this.click_button);
             // 
             // R001
             // 
@@ -75,6 +78,7 @@
             this.R001.Size = new System.Drawing.Size(186, 186);
             this.R001.TabIndex = 3;
             this.R001.UseVisualStyleBackColor = true;
+            this.R001.Click += new System.EventHandler(this.click_button);
             // 
             // R002
             // 
@@ -84,6 +88,7 @@
             this.R002.Size = new System.Drawing.Size(186, 186);
             this.R002.TabIndex = 4;
             this.R002.UseVisualStyleBackColor = true;
+            this.R002.Click += new System.EventHandler(this.click_button);
             // 
             // R003
             // 
@@ -93,6 +98,7 @@
             this.R003.Size = new System.Drawing.Size(186, 186);
             this.R003.TabIndex = 5;
             this.R003.UseVisualStyleBackColor = true;
+            this.R003.Click += new System.EventHandler(this.click_button);
             // 
             // I001
             // 
@@ -102,6 +108,7 @@
             this.I001.Size = new System.Drawing.Size(186, 186);
             this.I001.TabIndex = 6;
             this.I001.UseVisualStyleBackColor = true;
+            this.I001.Click += new System.EventHandler(this.click_button);
             // 
             // I002
             // 
@@ -111,6 +118,7 @@
             this.I002.Size = new System.Drawing.Size(186, 186);
             this.I002.TabIndex = 7;
             this.I002.UseVisualStyleBackColor = true;
+            this.I002.Click += new System.EventHandler(this.click_button);
             // 
             // I003
             // 
@@ -120,6 +128,7 @@
             this.I003.Size = new System.Drawing.Size(186, 186);
             this.I003.TabIndex = 8;
             this.I003.UseVisualStyleBackColor = true;
+            this.I003.Click += new System.EventHandler(this.click_button);
             // 
             // Form1
             // 

@@ -33,7 +33,7 @@ namespace TicTacToe_Game
 
             //disabling button
             b.Enabled = false;
-
+            turn_count++;
             checkForWinner();
         }
 
@@ -41,25 +41,55 @@ namespace TicTacToe_Game
         {
             bool there_is_a_winner = false;
 
-            if((U001.Text == U002.Text)&&(U002.Text == U003.Text) && (!U001.Enabled))
+            //horizontal
+            if ((U001.Text == U002.Text) && (U002.Text == U003.Text) && (!U001.Enabled))
                 there_is_a_winner = true;
-            if ((R001.Text == R002.Text) && (R002.Text == R003.Text) && (!R001.Enabled))
+            else if ((R001.Text == R002.Text) && (R002.Text == R003.Text) && (!R001.Enabled))
                 there_is_a_winner = true;
-            if ((I001.Text == I002.Text) && (I002.Text == I003.Text) && (!I001.Enabled))
+            else if ((I001.Text == I002.Text) && (I002.Text == I003.Text) && (!I001.Enabled))
                 there_is_a_winner = true;
 
-            if(there_is_a_winner)
+            //vertical
+            if ((U001.Text == R001.Text) && (R001.Text == I001.Text) && (!U001.Enabled))
+                there_is_a_winner = true;
+            else if ((U002.Text == R002.Text) && (R002.Text == I002.Text) && (!U002.Enabled))
+                there_is_a_winner = true;
+            else if ((U003.Text == R003.Text) && (R003.Text == I003.Text) && (!U003.Enabled))
+                there_is_a_winner = true;
+
+            //diagonal
+            else if ((U001.Text == R002.Text) && (R002.Text == I003.Text) && (!U001.Enabled))
+                there_is_a_winner = true;
+            else if ((U003.Text == R002.Text) && (R002.Text == I001.Text) && (I001.Enabled))
+                there_is_a_winner = true;
+
+            if (there_is_a_winner)
             {
+                disableButton();
+
                 String winner = "";
                 if (playerTurn)
-                    winner = "X";
-                else
                     winner = "O";
+                else
+                    winner = "X";
                 MessageBox.Show(winner + " ikaw ang panalo-lo-lo!", "Napaka galing!");
             }
-                
+            else
+            {
+                if(turn_count == 9)
+                    MessageBox.Show("It's a tie!", "Ay!");
+            }
+        
         }
+        private void disableButton()
+        {
+            foreach (Control c in Controls)
+            {
 
+                Button b = (Button)c;
+                b.Enabled = false;
+            }
 
+        }
     }
 }
